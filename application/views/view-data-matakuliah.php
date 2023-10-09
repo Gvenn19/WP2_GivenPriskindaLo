@@ -1,15 +1,17 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Tampil Data Matakuliah</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tampilan data matakuliah</title>
 
+</head>
 <body>
     <center>
         <table>
             <tr>
                 <th colspan="3">
-                    Tampil Data Mata Kuliah
+                    tampilan data matakuliah
                 </th>
             </tr>
             <tr>
@@ -18,14 +20,14 @@
                 </td>
             </tr>
             <tr>
-                <th>Kode MTK</th>
+                <th>kode MTK</th>
                 <th>:</th>
                 <td>
                     <?= $kode; ?>
                 </td>
             </tr>
             <tr>
-                <td>Nama MTK</td>
+                <td>nama MTK</td>
                 <td>:</td>
                 <td>
                     <?= $nama; ?>
@@ -40,10 +42,9 @@
             </tr>
             <tr>
                 <td colspan="3" align="center">
-                    <a href="<?= base_url('matakuliah');
-?>">Kembali</a>
-                </td
-                </tr>
+                    <a href="<?= base_url('matakuliah'); ?>">Kembali</a>
+                </td>
+            </tr>
         </table>
     </center>
 </body>

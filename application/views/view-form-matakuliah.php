@@ -1,19 +1,18 @@
 <html>
-
 <head>
     <title>Form Input Matakuliah</title>
 </head>
-
 <body>
     <center>
-        <form   action="<?= base_url('matakuliah/cetak'); ?>"
+        <form action="<?= base_url('matakuliah/cetak'); ?>"
 method="post">
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mata Kuliah
+                    Form Input Data Mata Kuliah
                     </th>
-                </tr
+                </tr>
+
                 <tr>
                     <td colspan="3">
                         <hr>
@@ -42,7 +41,7 @@ method="post">
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
-                            </select>
+                        </select>
                     </td>
                 </tr>
                 <tr>
@@ -54,5 +53,5 @@ method="post">
         </form>
     </center>
 </body>
-
 </html>
+
