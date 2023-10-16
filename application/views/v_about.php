@@ -2,23 +2,23 @@
     <h1><?php echo $judul ?></h1>
     <h4>Nama</h4>
     <ul type="disc">
-        <li>Nama Depan : Imam</li>
-        <li>Nama Belakang : Nawawi</li>
-    </ul>
-    <br>
-    <h4>Alamat</h4>
-    <ul type="none">
-        <li> Jalan Ciledug Raya No. 168 Pesanggrahan</li>
-    </ul>
+        <li>Nama Depan : Given </li>
+        <li>Nama Belakang : Priskinda Lo</li>
+ </ul>
+ <br>
+ <h4>ALAMAT</h4>
+ <ul type="none">
+    <li>Bengkayang, Kalimantan Barat</li>
+ </ul>
+ 
+ <h4>TEMPAT LAHIR</h4>
+ <ul type="none">
+    <li>Serukam 19 April 2002</li>
+ </ul>
 
-    <h4>Tempat Lahir</h4>
-    <ul type="none">
-        <li>Cirebon</li>
-    </ul>
-
-    <h4>Olah Raga Favorit</h4>
-    <ul type="square">
-        <li>Bulutangkis</li>
-        <li>Catur</li>
-    </ul>
+ <h4>OLAH RAGA FAVORIT</h4>
+ <ul type="square">
+    <li>Voli</li>
+    <li>Bola</li>
+ </ul>
 </section>
